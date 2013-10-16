@@ -1,0 +1,24 @@
+{
+  "name": "tb.marked",
+  "main": "./lib/marked.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/teambition/marked",
+  "authors": [
+    "Christopher Jeffrey",
+    "Qi Junyuan <conan007ai@gmail.com>"
+  ],
+  "description": "Markdown parser and compiler enhanced by Teambition from marked",
+  "keywords": [
+    "mardown",
+    "markup",
+    "html"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

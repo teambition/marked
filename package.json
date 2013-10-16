@@ -1,21 +1,25 @@
 {
-  "name": "marked",
-  "description": "A markdown parser built for speed",
-  "author": "Christopher Jeffrey",
+  "name": "tb.marked",
+  "description": "Markdown parser and compiler enhanced by Teambition from marked",
+  "authors": [
+    "Christopher Jeffrey",
+    "Qi Junyuan <conan007ai@gmail.com>"
+  ],
   "version": "0.2.8",
-  "main": "./lib/marked.js",
+  "main": "./lib/tb.marked.js",
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": true,
-  "repository": "git://github.com/chjj/marked.git",
-  "homepage": "https://github.com/chjj/marked",
+  "repository": "git@github.com:teambition/marked.git",
+  "homepage": "https://github.com/teambition/marked",
   "bugs": { "url": "http://github.com/chjj/marked/issues" },
   "keywords": ["markdown", "markup", "html"],
   "tags": ["markdown", "markup", "html"],
   "devDependencies": {
     "markdown": "*",
     "showdown": "*",
-    "robotskirt": "*"
+    "robotskirt": "*",
+    "closurecompiler": "~1.1.2"
   },
   "scripts": { "test": "node test", "bench": "node test --bench" }
 }

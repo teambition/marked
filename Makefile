@@ -1,10 +1,8 @@
 all:
-	@cp lib/marked.js marked.js
-	@uglifyjs -o marked.min.js marked.js
+	./node_modules/closurecompiler/bin/ccjs lib/tb.marked.js --charset=utf-8 > tb.marked.min.js
 
 clean:
-	@rm marked.js
-	@rm marked.min.js
+	@rm tb.marked.min.js
 
 bench:
 	@node test --bench
