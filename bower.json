@@ -1,7 +1,7 @@
 {
   "name": "tb.marked",
   "main": "./lib/marked.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/teambition/marked",
   "authors": [
     "Christopher Jeffrey",
