@@ -1,23 +1,23 @@
 {
-  "name": "tb.marked",
-  "main": "./lib/marked.js",
-  "version": "0.1.1",
-  "homepage": "https://github.com/teambition/marked",
+  "name": "marked",
+  "version": "0.3.4",
+  "homepage": "https://github.com/chjj/marked",
   "authors": [
-    "Christopher Jeffrey",
-    "Qi Junyuan <conan007ai@gmail.com>"
+    "Christopher Jeffrey <chjjeffrey@gmail.com>"
   ],
-  "description": "Markdown parser and compiler enhanced by Teambition from marked",
+  "description": "A markdown parser built for speed",
   "keywords": [
-    "mardown",
+    "markdown",
     "markup",
     "html"
   ],
+  "main": "lib/marked.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "app/bower_components",
     "test",
     "tests"
   ]

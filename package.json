@@ -5,14 +5,15 @@
     "Christopher Jeffrey",
     "Qi Junyuan <conan007ai@gmail.com>"
   ],
-  "version": "0.2.8",
   "main": "./lib/tb.marked.js",
+  "version": "0.3.6",
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": true,
   "repository": "git@github.com:teambition/marked.git",
   "homepage": "https://github.com/teambition/marked",
   "bugs": { "url": "http://github.com/chjj/marked/issues" },
+  "license": "MIT",
   "keywords": ["markdown", "markup", "html"],
   "tags": ["markdown", "markup", "html"],
   "devDependencies": {
@@ -20,6 +21,9 @@
     "showdown": "*",
     "robotskirt": "*",
     "closurecompiler": "~1.1.2"
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.1.0",
+    "gulp-concat": "^2.5.2"
   },
   "scripts": { "test": "node test", "bench": "node test --bench" }
 }
